@@ -23,7 +23,7 @@ def getAnswer(answerNumber):
         return 'Very doubtful'
 
 
-r = random.randint(1,33)
+r = random.randint(1,10)
 fortune = getAnswer(r)
 print(fortune)
 print('随机数是' + str(r))
